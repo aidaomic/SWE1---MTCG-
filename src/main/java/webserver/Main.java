@@ -1,4 +1,4 @@
-package WebServer;
+package webserver;
 
 import com.sun.net.httpserver.HttpServer;
 import org.glassfish.jersey.jdkhttp.JdkHttpServerFactory;

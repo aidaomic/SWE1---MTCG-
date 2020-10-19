@@ -23,29 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66896508-84b7-4a53-9fe4-a071758aa045" name="Default Changelist" comment="Initial Commit for MTCG">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SWE1-MTCG/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/BuyPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ChangeStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Trading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Store/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Store/TradingCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebServer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cards/MonsterCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cards/SpellCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cardspezifikation/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cardspezifikation/MonsterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decks/CardDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decks/CardStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decks/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/BattleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/BuyPackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/ChangeStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/TradingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cards/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cards/MosterCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cards/SpellCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/decks/CardDeckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/decks/PackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/PackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webserver/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/BuyPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/BuyPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/ChangeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ChangeStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Trading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Trading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/TradingCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cardspezifikation/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cardspezifikation/MonsterType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decks/CardStack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +98,7 @@
   </component>
   <component name="RunManager" selected="JUnit.AIITest">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="WebServer.Main" />
+      <option name="MAIN_CLASS_NAME" value="webserver.Main" />
       <module name="MTCG_Omic" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,10 +186,10 @@
     </state>
     <state x="560" y="20" width="976" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.1080.1097.617@0.0.1536.824" timestamp="1603043350296" />
     <state x="447" y="52" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602531991586" />
-    <state x="911" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603042303131">
+    <state x="911" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603131436537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="911" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.1080.1097.617@0.0.1536.824" timestamp="1603042303131" />
+    <state x="911" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.1080.1097.617@0.0.1536.824" timestamp="1603131436537" />
     <state x="722" y="211" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602531958804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
